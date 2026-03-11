@@ -1,0 +1,36 @@
+{
+  "variant": "minimax-dna-v1",
+  "dna_origin": "codex",
+  "tagline": "We design for people who notice.",
+  "images": [
+    {
+      "filename": "01.png",
+      "description": "Five-star hotel lobby establishing shot",
+      "prompt": "Wide establishing shot of a luxurious five-star hotel lobby, floor-to-ceiling windows with golden afternoon light streaming in, contemporary design with high ceilings, large brushed brass wayfinding panel mounted on left wall with elegant directional text, polished white Carrara marble flooring, custom brass light fixture overhead, low-profile cream upholstered sofa grouping, black marble reception desk, potted olive trees, architectural photography, 35mm lens, f/8, warm 3000K ambient lighting, ultra-detailed 8K render, interior design magazine quality",
+      "aspect": "16:9",
+      "resolution": "2K"
+    },
+    {
+      "filename": "02.png",
+      "description": "Boutique hotel corridor with signage",
+      "prompt": "Medium shot of an elegant boutique hotel corridor, textured limewash plaster walls in warm beige, brushed brass room number plates on each door with raised roman numerals, recessed ceiling lights with soft warm glow, narrow runner rug in muted geometric pattern, brass wayfinding panel at corridor intersection, 50mm lens, f/2.8 shallow depth of field focusing on foreground signage, professional interior photography, warm ambient lighting, photorealistic",
+      "aspect": "4:5",
+      "resolution": "2K"
+    },
+    {
+      "filename": "03.png",
+      "description": "Private residence entry plaque",
+      "prompt": "Close-up of a luxury private residence entry, brushed brass house number plaque mounted on Nero Marquina black marble wall panel, custom serif numerals, beveled edge detail on marble, recessed adjustable lighting from above, subtle shadow creating depth, lacquered front door in deep forest green with brass door handle, decorative brass mounting standoffs visible, 85mm lens, f/2.8, even warm lighting at 2700K, architectural detail photography, ultra-detailed",
+      "aspect": "4:3",
+      "resolution": "2K"
+    },
+    {
+      "filename": "04.png",
+      "description": "Concierge desk identity plate",
+      "prompt": "Medium close-up of a hotel concierge desk in a luxury boutique hotel, polished brass identity plate with engraved text CONCIERGE in elegant script font, desk surface in polished black granite with brass trim, warm desk lamp casting golden light across the brass plate, dark walnut wood paneling behind the desk, small arrangement of fresh flowers in crystal vase, leather-bound guest book, brass plate catching reflections, 85mm lens, f/2.0 shallow depth of field on plate, warm evening lighting mood, cinematic interior photography",
+      "aspect": "4:5",
+      "resolution": "2K"
+    }
+  ],
+  "nano_banana_command": "uv run generate_image.py -p \"{prompt}\" -f minimax-dna-v1/images/{filename} -r {resolution} -a {aspect}"
+}
