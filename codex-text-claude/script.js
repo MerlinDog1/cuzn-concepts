@@ -1,0 +1,1 @@
+document.querySelectorAll('.reveal').forEach((e,i)=>setTimeout(()=>e.classList.add('on'),100*i));
